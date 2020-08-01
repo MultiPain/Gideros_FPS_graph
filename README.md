@@ -1,7 +1,7 @@
 # Preview
 
 <p align="center">
-  <img src="../../Gideros_examples/img/graph.png">
+  <img src="../../../Gideros_examples/img/graph.png">
 </p>
 
 # API
