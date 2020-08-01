@@ -258,7 +258,7 @@ function FPSgraph:update(dt)
 	end
 end
 --
-function FPSgraph:setUp(options)	
+function FPSgraph:setup(options)	
 	local antialiasing = options.antialiasing or 2
 	assert(antialiasing and antialiasing >= 0, "Step cant be less than 0!") 
 	
