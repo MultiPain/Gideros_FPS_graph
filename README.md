@@ -12,7 +12,6 @@
 * width (number) - width of the container
 * height (number) - height of the container
 * options (table) - extra parameters [optional]
-	* step (number, default - 20)- step between peeks
 	* antialiasing (number, default - 2)- smooth graph edge on top
 	* color (number, default - 0xffffff) - background color of the container
 	* alpha (number, defalut - 0.5) - background alpha of the container
@@ -25,3 +24,20 @@
 	* minTextColor (string, defalut - "#000") - color of minimum FPS in textfiled (works only with bitmap font)
 	* currTextColor (string, defalut - "#000") - color of current FPS in textfiled (works only with bitmap font)
 	* maxTextColor (string, defalut - "#000") - color of maximum FPS in textfiled (works only with bitmap font)
+
+Set all above paraemetrs
+```lua
+FPSgraph:setup(options)	
+```
+
+Set container size
+```lua
+FPSgraph:setSize(width, height)
+-- OR 
+FPSgraph:setDimensions(width, height)
+```
+
+Set step between peeks
+```lua
+FPSgraph:setStep(step)
+```
