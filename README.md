@@ -37,7 +37,7 @@ FPSgraph:setSize(width, height)
 FPSgraph:setDimensions(width, height)
 ```
 
-Set step between peeks
+Set step between peaks
 ```lua
 FPSgraph:setStep(step)
 ```
